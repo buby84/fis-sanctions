@@ -1,5 +1,8 @@
-# FIS SANCTIONS
-display fis sanctions list with search and filter options
+# FIS SKI SANCTIONS
+display fis ski sanctions list with search and filter options
+
+it consume fis-ski api in order to get the sanctions list https://api.fis-ski.com/documentation/general
+
 
 
 # Development
