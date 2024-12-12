@@ -10,10 +10,11 @@ const USERNAME = 'your_username';
 const PASSWORD = 'your_password';
 const X_API_KEY = 'ApiXKey123';
 
-
-
 let apiToken = null;
-// Configura Axios per includere l'header x-api-key in tutte le richieste
+
+//TO-DO: chose authentication method
+
+// Configura Axios per includere l'header x-api-key in tutte le richieste effettuate
 axios.defaults.headers.common['x-api-key'] = X_API_KEY;
 
 /* auth*/
