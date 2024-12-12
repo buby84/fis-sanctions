@@ -1,0 +1,31 @@
+.sanction-card {
+    display: flex;
+    flex-direction: column; /* Cambia la direzione del flex a colonna */
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sanction-card__header {
+    background-color: #f0f0f0; /* Colore di sfondo diverso */
+    color: #000; /* Colore del testo nero */
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+.sanction-card__body {
+    display: flex;
+}
+
+.sanction-card__column {
+    flex: 1;
+    padding: 0 10px;
+    border-right: 1px solid #ccc;
+}
+
+.sanction-card__column:last-child {
+    border-right: none;
+}
